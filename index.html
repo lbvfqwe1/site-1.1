@@ -1,102 +1,65 @@
-<!doctype html>
-<html lang="ru">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>CPS</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>home page</title>
 </head>
 
 <body>
-    <header class="header">
-        <button class="header_menu">
-            <img src="img/ic/1.svg" class="header_img" alt="три полоски">
-        </button>
-        <img src="img/ic/divider.svg" class='header_ic header_ic-hidden' alt="линия разделения">
-        <img src='img/logo/Fill.svg' class="header_Fill" alt="logo">
-        <button class="header_phone">
-            <img src="img/ic/phone.png" class="header_img" alt="">
-        </button>
-        <button class="header_messege">
-            <img src="img/ic/chat.png" class="header_img" alt="">
-        </button>
-        <button class="header_people">
-            <img src="img/ic/people.png" class="header_img" alt="">
-        </button>
-        <img src="img/ic/divider.svg" class='header_ic' alt="линия разделения">
-        <a class="header_repair">
-            <img src="img/ic/Group.svg" class="header_img" alt="инструменты">
-        </a>
-        <a class="header_status">
-            <img src="img/ic/2.svg" class="header_img" alt="поиск">
-        </a>
-    </header>
-    <header class="header2">
-        <div class="title2">
-            <div class="title_leftline"></div>
-            <h1 class="title_h1">Услуги и сервисы</h1>
-        </div>
-        <div class="header_inst1">
-        <div class="header_text">Оставить заявку</div>
-        <a class="header_repair">
-      
-            <img src="img/ic/Group.svg" class="header_img" alt="инструменты">
-        </a>
-    </div>
-    <div class="header_inst2">
-        <div class="header_text">Статус ремонта</div>
-        <a class="header_status">
-            
-            <img src="img/ic/2.svg" class="header_img" alt="поиск">
-        </a>
-    </div>
-    </header>
-    <main class="main">
-        <div class="main_line"></div>
-        <div class="title">
-            <div class="title_leftline"></div>
-            <h1 class="title_h1">Услуги и сервисы</h1>
-        </div>
-        <div class="page">
-            <div class="page_block page_block-checed">
-                <input type="radio" id="radio-1" name="radio" value="1" checked>
-                <label for="radio-1">Ремонтируемые бренды</label>
+    <main>
+        <form class="form" method="POST">
+            <div class="left_form">
+                <div class="left_form-img"></div>
+                <img class="left_form-logo" src="img/logo.svg"></img>
             </div>
-            <div class="page_block">
-                <input type="radio" id="radio-2" name="radio" value="2">
-                <label for="radio-2">Ремонтируемые устройства</label>
-            </div>
-            <div class="page_block">
-                <input type="radio" id="radio-3" name="radio" value="3">
-                <label for="radio-3">Цены на услуги</label>
-            </div>
-            <div class="page_block">
-                <input type="radio" id="radio-4" name="radio" value="4">
-                <label for="radio-4">Адреса сервисных центров</label>
-            </div>
-            <div class="page_block">
-                <input type="radio" id="radio-5" name="radio" value="5">
-                <label for="radio-5">Специальные цены</label>
-            </div>
-        </div>
-        <div class="content">
-            <div class="content_text">
-                <div class="content_otzov">Отзывы</div>
-                Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас
-                вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.<p class="content_text2">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера,</p>
-                <p class="content_text3">что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к
-                    нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
-
-                <div class="content_next"><img src="img/ic/next.png" alt=""> Читать далее</div>
-            </div>
-
-            <img src="img/ic/_MG_3223.png" alt="картинка компании" class="content_img">
-        </div>
+            <div class="right_form">
+                <h1 class="right_form-h1">Get iintoo it today</h1>
+                <h3 class="right_form-h2">Theme is charge or obligation upon registration.</h2>
+                    <div class="right_form_link">
+                        <div class="right_form_link-facebook"><img src="img/facebook.svg" alt="facebook img"
+                                class="right_form_link-facebook_img"> Register with Facebook</div>
+                        <div class="right_form_link-linkedin"><img src="img/linkedin.svg" alt="linkedin img"
+                                class="right_form_link-linkedin_img"> Register with Linkedin</div>
+                    </div>
+                    <div class="right_form-hr">
+                        <hr class="right_form-hr_height" align="right">
+                        <div class="right_form-hr_text"> OR </div>
+                        <hr class="right_form-hr_height" align="left">
+                    </div>
+                    <div class="right_form-input">
+                        <input type="email" name="email" id="email" class="right_form_input-Email" required
+                            placeholder="Email">
+                        <input type="tel" name="tel" id="tel" class="right_form_input-number" required
+                            placeholder="Number">
+                    </div>
+                    <h2>What type of investor are you?</h1>
+                        <h3>Select the type of investor are below.
+                    </h2>
+                    <div class="right_form-radio">
+                        <label class="right_form_radio-radio"><input type="radio" name="g" checked><span></span>
+                            &nbsp;Individual&reg;</label>
+                        <label class="right_form_radio-radio"><input type="radio" name="g"><span></span>
+                            &nbsp;Business&reg;</label>
+                        <label class="right_form_radio-radio"><input type="radio" name="g"><span></span>&nbsp;
+                            IRA&reg;</label>
+                        <label class="right_form_radio-radio"><input type="radio" name="g"><span></span>
+                            &nbsp;Trust&reg;</label>
+                    </div>
+                    <div class="right_form-info">
+                        I am natural person investing on me <br> own behalf as a sole owner, joint jenant,<br> or
+                        tenant in common.
+                    </div>
+                    <input type="checkbox" name="checkbox" id="checkbox" class="right_form-checkbox">
+                    <label class="right_form-checkbox" for="checkbox"> i agree to the terms and receiving
+                        notifications from iintoo <a href=""> View full terms</a>
+                    </label>
+                    <input type="submit" value="Create account" class="right_form-submit">
+        </form>
     </main>
-
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 </body>
 
 </html>
